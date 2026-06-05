@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Law Firm</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css" /> 
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+ <header class="main-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="#" ><img src="logo2.png" alt=""></a>
+      </div>
+     <nav class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#weare">About Us</a></li>
+                <li><a href="#ceo">ceo</a></li>
+                <li><a href="#ser" >Our services</a></li>
+                <li><a href="#con">contact</a></li>
+            </ul> 
+     </nav>
+     <div class="header-actions">
+                
+                <a  target="_blank" class="whatsapp-icon" onclick="document.location= 'https://api.whatsapp.com/send?phone=+966543639066&text=.'" ><i class="fa-brands fa-whatsapp"></i></a>
+
+                <select class="lang-select" id="lang">
+                    <option value="ar">العربية</option>
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                </select>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+      </div>
+
+    </div>
+</header>
+<!-- Hero -->
+<section class="hero">
+    <h1 id="title"></h1>
+    <p id="subtitle"></p>
+    <button id="cta"  target="_blank" onclick="document.location= 'https://api.whatsapp.com/send?phone=+966543639066&text=.'"></button>
+</section>
+<!-- ---------------------------about info------------------ -->
+<!-- <div class="section-title">
+      <h2 id="we"></h2>
+      <p id="wep"></p>
+    </div> -->
+<section class="cardCompany" id="weare">
+      <!------------------- about company ------------------>
+      
+      <article class="carda about_Company">
+        <div class="card_header">
+          <img src="images/aboutcompany.svg" class="card_img" alt="" />
+          <div>
+            <h3 id="about"></h3> 
+          </div>
+          <div class="h_l aboutCompany"></div>
+        </div >
+        <div class="description_box">
+          <p class="card_lead" id="about_p1"></p>
+        <p class="card_lead" id="about_p2"></p>
+        <p class="card_lead" id="about_p3"></p>
+        <p class="card_lead" id="about_p4"></p>
+        <button type="button" class=""id="">Read More</button>
+        </div>
+      </article>
+      <!------------------- about company ------------------>
+      <article class="carda card_gold">
+        <div class="card_header">
+          <img src="images/vision.svg" class="card_img" alt="" />
+          <div>
+            <h3 id="vision"></h3>
+          </div>
+        </div>
+        <p class="card_lead" id="vision_p1"></p>
+        <p class="card_lead" id="vision_p2"></p>
+        <p class="card_lead" id="vision_p3"></p>
+        <p class="card_lead" id="vesion_p4"></p>
+        
+        <button type="button" class="">Read More</button>
+  
+      </article>
+      <article class="carda card_white_one">
+        <div class="card_header">
+          <img src="images/message.svg" class="card_img" alt="" />
+          <div>
+            <h3 id="message"></h3>
+          </div>
+          <div class="horizontal_line"></div>
+        </div>
+        <p class="card_lead" id="message_p1"></p>
+        <p class="card_lead" id="message_p2"></p>
+        <p class="card_lead" id="message_p3"></p>
+        <p class="card_lead" id="message_p4"></p>
+        
+        <button type="button" class="">Read More</button>
+      </article>
+      <article class="carda card_black_blue">
+        <div class="card_header">
+          <img src="images/value.svg" class="card_img" alt="" />
+          <div>
+            <h3 id="Values"></h3>
+          </div>
+          <div class="horizontal_line"></div>
+        </div>
+        <p class="card_lead" id="Values_p1"></p>
+        <p class="card_lead" id="Values_p2"></p>
+        <p class="card_lead" id="Values_p3"></p>
+        <p class="card_lead" id="Values_p4"></p>
+        
+        <button type="button" class="">Read More</button>
+      </article>
+      <article class="carda card_white">
+        <div class="card_header">
+          <img src="images/group.svg" class="card_img" alt="" />
+          <div>
+            <h3 id="Team"></h3>
+          </div>
+        </div>
+        <p class="card_lead" id="Team_p1"></p>
+        <p class="card_lead" id="Team_p2"></p>
+        <p class="card_lead" id="Team_p3"></p>
+        <p class="card_lead" id="Team_p4"></p>
+        <p class="card_quote"></p>
+        <button type="button" class="">Read More</button>
+      </article>
+    </section>
+
+ <!-- ------------------------------------------------------ -->
+ <!-- manger ------------------------------------------------- -->
+ <!-- ------------------------------------------------------ -->
+<div class="container" id="ceo">
+        <div class="header">
+            <div class="header-icon">
+                <img src="logo2.png" alt="">
+            </div>
+            <div class="header-titles">
+                <h2 id="mangert"> </h2>
+                <span id="manager"></span>
+            </div>
+        </div>
+
+        <div class="manager-card" id="managerCard">
+            
+            <div class="card-text">
+                <p id="managerTitle1"></p>
+                <p id="managerTitle2"></p>
+                <p id="managerTitle3"></p>
+            </div>
+
+            <div class="card-profile">
+                <div class="profile-image-wrapper">
+                    <img src="images/manger.png" alt="D.turki">
+                </div>
+                <div class="profile-info">
+                    <div class="profile-details">
+                        <h3 id="nameManager">عمر العسبلي</h3>
+                        <p id="managerCeo"></p>
+                    </div>
+                    <div class="vertical-line"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+ <!--end manger ------------------------------------------------------ -->
+<!-- Services -->
+<section class="section" id="ser">
+    <h2 id="servicesTitle"></h2>
+    <div class="services">
+    <div class="service-card">
+       <img src="images/ONE.svg" alt="">
+       <div class="card" onclick="openService('s1')" id="s1"></div>
+    </div>
+    <div class="service-card">
+       <img src="images/two.svg" alt="">
+       <div class="card" onclick="openService('s2')" id="s2"></div>
+    </div>
+    <div class="service-card">
+       <img src="images/there.svg" alt="">
+       <div class="card" onclick="openService('s3')" id="s3"></div>
+    </div>
+    <div class="service-card">
+       <img src="images/four.svg" alt="">
+       <div class="card" onclick="openService('s4')" id="s4"></div>
+    </div>
+    <div class="service-card">
+       <img src="images/five.svg" alt="">
+       <div class="card" onclick="openService('s5')" id="s5"></div>
+    </div>
+    <div class="service-card">
+       <img src="images/six.svg" alt="">
+       <div class="card" onclick="openService('s6')" id="s6"></div>
+    </div>
+    <div class="service-card">
+       <img src="images/siven.svg" alt="">
+       <div class="card" onclick="openService('s7')" id="s7"></div>
+    </div>
+    <div class="service-card">
+       <img src="images/eight.svg" alt="">
+       <div class="card" onclick="openService('s8')" id="s8"></div>
+    </div>
+    <div class="service-card">
+       <img src="images/nine.svg" alt="">
+       <div class="card" onclick="openService('s9')" id="s9"></div>
+    </div>
+    
+    <!-- <div class="card" onclick="openService('s1')" id="s1"></div> -->
+    <!-- <div class="card" onclick="openService('s2')" id="s2"></div> -->
+    <!-- <div class="card" onclick="openService('s3')" id="s3"></div> -->
+    <!-- <div class="card" onclick="openService('s4')" id="s4"></div> -->
+    <!-- <div class="card" onclick="openService('s5')" id="s5"></div> -->
+    <!-- <div class="card" onclick="openService('s6')" id="s6"></div> -->
+    <!-- <div class="card" onclick="openService('s7')" id="s7"></div> -->
+    <!-- <div class="card" onclick="openService('s8')" id="s8"></div>/ -->
+    <!-- <div class="card" onclick="openService('s9')" id="s9"></div> -->
+</div>
+<!-- Modal -->
+<div id="serviceModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">×</span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalText"></p>
+        <p id="modalText2"></p>
+        <p id="modalText3"></p>
+        <p id="modalText4"></p>
+    </div>
+</div>
+</section>
+<!-- new الخدمات ------------------------->
+<!-- Contact ----------------------------->
+<!-- <section class="section">
+    <h2 id="contactTitle"></h2>
+    <p id="contactText"></p>
+</section> -->
+<!--  cliient journey ---------------------------------------------- -->
+
+<section class="client-journey-section">
+        
+        <div class="section-header animate-item">
+            <h2 id="clientTitle"></h2>
+            <p id="clientp"></p>
+        </div>
+
+        <div class="journey-grid">
+            
+            <div class="side-column">
+                <div class="journey-card card-gold animate-item">
+                    <div class="icon-box">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 id="clientOne">  </h3>
+                        <p id="clientOnep"></p>
+                    </div>
+                </div>
+
+                <div class="journey-card card-dark animate-item">
+                    <div class="icon-box">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 id="clientTwo"></h3>
+                        <p id="clientTwop"></p>
+                    </div>
+                </div>
+
+                <div class="journey-card card-gold animate-item">
+                    <div class="icon-box">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 id="clientThere"></h3>
+                        <p id="clientTherep"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center-circle-wrapper animate-item">
+                <div class="center-circle" id="clientJourney"></div>
+            </div>
+
+            <div class="side-column">
+                <div class="journey-card card-gold animate-item">
+                    <div class="icon-box">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 id="clientFour"></h3>
+                        <p id="clientFourp"></p>
+                    </div>
+                </div>
+
+                <div class="journey-card card-dark animate-item">
+                    <div class="icon-box">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 id="clientFive"></h3>
+                        <p id="clientFivep"></p>
+                    </div>
+                </div>
+
+                <div class="journey-card card-gold animate-item">
+                    <div class="icon-box">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 id="clientSix"></h3>
+                        <p id="clientSixp"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!-- end client journey --------------------------------------------------------------- -->
+
+<!-- ------------------------------------------------------------------------------------- -->
+<!-- client ------------------------------------------------------------------------------- -->
+ <!-- ------------------------------------------------------------------------------------- -->
+<section class="clients-section">
+        
+        <div class="section-title fade-up">
+            <h2 id="ourClient"></h2>
+        </div>
+
+        <div class="clients-list">
+            
+            <div class="client-box fade-up">
+                <p id="ourClientp1"></p>
+            </div>
+
+            <div class="client-box fade-up">
+                <p id="ourClientp2"></p>
+            </div>
+
+            <div class="client-box fade-up">
+                <p id="ourClientp3"></p>
+            </div>
+
+            <div class="client-box fade-up">
+                <p id="ourClientp4"></p>
+            </div>
+
+        </div>
+    </section>
+ <!--end client  ------------------------------------------------------------------------------------- -->
+<!-- contact--------------------------------------- -->
+<section class="contact-section " id="con">
+
+    <div class="section-title">
+      <h2 id="contactUs"></h2>
+      <p id="contactUsp"></p>
+    </div>
+
+    <div class="contact-wrapper">
+
+      <!-- Phone -->
+      <div class="contact-card">
+        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+        <h3>رقم الهاتف</h3>
+        <a href="tel:+966543639066">0543639066</a>
+      </div>
+
+      <!-- Email -->
+      <div class="contact-card">
+        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+        <h3>البريد الإلكتروني</h3>
+        <a href="mailto:legal@aljedanilaw.com">
+          legal@aljedanilaw.com
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- end contact ----------------------------- -->
+
+
+<footer>
+    <p id="footer"></p>
+</footer>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
