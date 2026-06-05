@@ -766,11 +766,13 @@ footer{
 }
 
 .close {
-    position: absolute;
+    /* position: absolute; */
+    display: flex;
     top: 15px;
-    right: 20px;
-    font-size: 25px;
+    left: 0px;
+    font-size: 30px;
     cursor: pointer;
+    /* margin-left: 200px; */
 }
 
 @keyframes fadeIn {
