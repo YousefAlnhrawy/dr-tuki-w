@@ -318,7 +318,7 @@ body {
 .cardCompany .card_lead {
   text-decoration:none;
   text-transform: none;
-  text-align: justify;
+  /* text-align: justify; */
   /* text-shadow: 7px 5px 5px #222; */
   /* text-indent: 0.1rem; */
   line-height: 1.5;
