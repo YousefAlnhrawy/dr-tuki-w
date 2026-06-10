@@ -320,16 +320,16 @@ body {
   text-transform: none;
   text-align: justify;
   /* text-shadow: 7px 5px 5px #222; */
-  text-indent: 0.1rem;
+  /* text-indent: 0.1rem; */
   line-height: 1.5;
   font-size: 1rem;
   font-weight:bold;
   margin-bottom: 20px;
 }
-.cardCompany .card_lead::first-letter{
+/* .cardCompany .card_lead::first-letter{ */
 /* font-size: 2rem; */
 /* text-transform: uppercase; */
-}
+/* } */
 
 .cardCompany .card_quote {
   font-size: .938rem;
