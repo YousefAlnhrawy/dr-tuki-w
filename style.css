@@ -320,7 +320,7 @@ body {
   text-transform: none;
   text-align: justify;
   /* text-shadow: 7px 5px 5px #222; */
-  /* text-indent: 2rem; */
+  text-indent: 0.1rem;
   line-height: 1.5;
   font-size: 1rem;
   font-weight:bold;
@@ -328,7 +328,7 @@ body {
 }
 .cardCompany .card_lead::first-letter{
 /* font-size: 2rem; */
-text-transform: uppercase;
+/* text-transform: uppercase; */
 }
 
 .cardCompany .card_quote {
@@ -927,12 +927,30 @@ footer{
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 36px;
+            flex-direction: column;
+            font-size: 26px;
             font-weight: 800;
             color: var(--gold-color);
             box-shadow: 0 10px 30px rgba(0,0,0,0.08);
             position: relative;
         }
+        .center-circle h1{
+            width: 200px;
+            height: 200px;
+            /* background-color: #fff; */
+            border-radius: 50%;
+            /* border: 8px solid var(--dark-color);  */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 26px;
+            font-weight: bold;
+            color: var(--gold-color);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            position: relative;
+        }
+        
 
         /* الإطار الخارجي المتقطع للدائرة */
         .center-circle::before {
@@ -1018,12 +1036,20 @@ footer{
             .center-circle-wrapper {
                 grid-column: 1;
                 margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
             .center-circle {
                 width: 200px;
                 height: 200px;
                 font-size: 28px;
+            }
+            .center-circle h1{
+                width: 200px;
+                height: 200px;
+                font-size: 25px;
             }
         }
 
